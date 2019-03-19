@@ -1,0 +1,34 @@
+{
+  "name": "nikah-server",
+  "version": "0.0.1",
+  "description": "nikah-server",
+  "main": "app.js",
+  "author": "Oney",
+  "engines": {
+    "node": "v4.1.0"
+  },
+  "scripts": {
+    "open": "heroku open",
+    "logs": "heroku logs --tail",
+    "deploy": "git push heroku master",
+    "start": "LOCAL=TRUE node app.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt": "https://github.com/kelektiv/node.bcrypt.js.git#master",
+    "express": "^4.11.2",
+    "express-fileupload": "^1.0.0",
+    "express-xml-bodyparser": "^0.3.0",
+    "jimp": "^0.5.6",
+    "jsonwebtoken": "^8.2.1",
+    "md5": "^2.2.1",
+    "moment": "^2.22.2",
+    "mongojs": "^2.5.0",
+    "mysql": "^2.16.0",
+    "npm": "^6.4.1",
+    "open": "0.0.5",
+    "rand-token": "^0.4.0",
+    "socket.io": "1.3.4",
+    "xml2js": "^0.4.19"
+  }
+}
